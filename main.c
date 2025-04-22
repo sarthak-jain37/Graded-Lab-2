@@ -1,4 +1,3 @@
-//Sarthak Jain 2410110306. This code has been written by me and is not copied from anywhere else.
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -79,8 +78,6 @@ Node* insert(char tuple[], Node* root){
     // printf("Root : %c\n\n", root->data);
     return root;
 }
-
-// N L P J F N P X T F X X L X X T X X
 
 Node* parseEmployees(char employees[]){
     int i = 0;
