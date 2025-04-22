@@ -1,15 +1,15 @@
-# Organization Hierarchy Binary Tree
+# Organisation Hierarchy Binary Tree
 
 
 Completed as an assignment for the Data Structures course at my university.
 
-A C program that constructs and manipulates an organization hierarchy represented as a binary tree. Each node in the tree corresponds to an employee (denoted by an uppercase letter), and the tree models reporting relationships between bosses and their team members.
+A C program that constructs and manipulates an organisation hierarchy represented as a binary tree. Each node in the tree corresponds to an employee (denoted by an uppercase letter), and the tree models reporting relationships between bosses and their team members.
 
 ## Features
 
-1. **Tree Construction**: Parses a list of tuples `(boss left-child right-child)` from a file and builds the binary tree. Missing children are marked with `X`.
+1. **Tree Construction**: Parses a list of tuples `(node left-child right-child)` from a file and builds the binary tree. Missing children are marked with `X`.
 2. **Inorder Traversal**: Prints the inorder sequence of employees.
-3. **Tree Height**: Calculates and displays the height of the organization tree.
+3. **Tree Height**: Calculates and displays the height of the organisation tree.
 4. **Boss Count**: Counts and prints the number of nodes that act as bosses (i.e., have at least one child).
 5. **BST Verification**: Checks if the tree satisfies binary search tree (BST) properties based on alphabetical order. Reports the CEO if valid or the node where the violation occurs.
 6. **Role Shuffling**: Applies a special rotation function (`specialFunction`) to the tree.
